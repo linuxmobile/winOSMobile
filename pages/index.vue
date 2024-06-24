@@ -1,11 +1,26 @@
-<script setup lang="ts">
-const route = useRoute()
-</script>
-
 <template>
-  <div>
-    <h1>Nuxt Routing set up successfully!</h1>
-    <p>Current route: {{ route.path }}</p>
-    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
+  <div v-if="localStorageChecked">
+    <Bootanimation v-if="!sessionStarted" />
+    <Homescreen v-else />
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref, onMounted } from 'vue';
+
+const sessionStarted = ref(false);
+const localStorageChecked = ref(false);
+
+onMounted(() => {
+  const session = localStorage.getItem('sessionStarted');
+  if (session === 'true') {
+    sessionStarted.value = true;
+  } else {
+    setTimeout(() => {
+      sessionStarted.value = true;
+    }, 5000);
+    localStorage.setItem('sessionStarted', 'true');
+  }
+  localStorageChecked.value = true;
+});
+</script>
