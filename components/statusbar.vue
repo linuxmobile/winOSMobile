@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute top-0 w-full inset-x-0 max-w-md mx-auto font-sans font-700 px-5 py-2 flex items-center justify-between">
+  <div class="absolute top-0 w-full inset-x-0 max-w-md mx-auto font-700 px-5 py-2 flex items-center justify-between">
     <p class="text-lg">{{ currentTime }}</p>
     <div class="flex items-center justify-center gap-x-3">
       <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,8 +22,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
 const currentTime = ref('');
 const batteryLevel = ref('');
 
