@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-black min-h-screen text-white grid grid-rows-5 place-content-center place-items-center w-full font-sans max-w-md inset-x-0 inset-y-0 absolute mx-auto">
+    class="bg-black min-h-screen text-white grid grid-rows-5 place-content-center place-items-center w-full max-w-md inset-x-0 inset-y-0 absolute mx-auto">
     <header class="row-span-4">
       <h1 class="text-6xl flex items-start leading-none">
         Surface<span class="text-sm">™</span>

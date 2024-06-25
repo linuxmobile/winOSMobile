@@ -6,8 +6,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
-
 const sessionStarted = ref(false);
 const localStorageChecked = ref(false);
 
