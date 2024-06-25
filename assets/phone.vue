@@ -1,0 +1,20 @@
+<template>
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect width="32" height="32" fill="url(#pattern0_1_9276)"/>
+    <rect width="32" height="32" fill="url(#pattern1_1_9276)"/>
+    <defs>
+    <pattern id="pattern0_1_9276" patternContentUnits="objectBoundingBox" width="1" height="1">
+    <use xlink:href="#image0_1_9276" transform="scale(0.00390625)"/>
+    </pattern>
+    <pattern id="pattern1_1_9276" patternContentUnits="objectBoundingBox" width="1" height="1">
+    <use xlink:href="#image0_1_9276" transform="scale(0.00390625)"/>
+    </pattern>
+    <image id="image0_1_9276" width="256" height="256" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEABAMAAACuXLVVAAAAJ1BMVEUAAAAYT4VQ5v9Q5v9Q5v8/xes1wfEupdYbneIAbL8MY60YT4UYT4XvumqtAAAADXRSTlMAQEC///////////+/D2tLTQAAAT1JREFUeNrt1LFNA0EQBdDFpATkJA4ogMAVwCI6cQWOqIAWqMDSZY65gJymsKWzdAkOZke3Qn4/mez+k2b2SrmY1aY25mVdWtLcfxS09D/WhDzH+1c1JXHAbQ7gqe8GWnawyQHEz7DWzkcAAPDXB9+GYTfNeXaLAd6HYT/NefaLAU5t5znP0oDXqwf0W0H3I+z+DP0JAQAAAK4HsE0KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAGPCRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID/C/hMCgAAAAAAAAAAAAAAAAAAAAAAAAAAQBjwlRQAAAAAAAAAAAAAAIAw4CenfwwDHnIAhzDgLgfwXTofQbw/ZweHBkDGGY4t/eWmWTDeX274BTMrdhROL/f9AAAAAElFTkSuQmCC"/>
+    </defs>
+  </svg>
+</template>
+<script lang="ts">
+export default {
+  name: 'Phone'
+}
+</script>
