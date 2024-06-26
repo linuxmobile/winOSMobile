@@ -7,12 +7,12 @@
     <picture class="col-span-2 row-span-2 grid place-content-center rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150 ">
       <img src="/assets/weather.png" alt="Sunny" class="size-12">
     </picture>
+    <RecycleBin class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
+    <ClockIcon class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
     <MusicFolder class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
     <FileExplorer class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
-    <MusicFolder class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
-    <FileExplorer class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
-    <MusicFolder class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
-    <FileExplorer class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
+    <Notepad class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
+    <Paint class="w-full h-full col-span-1 row-span-1 p-1 rounded-md bg-sky-950/30 backdrop-blur-xl backdrop-saturate-150" />
   </section>
 </template>
 <script setup lang="ts">
@@ -22,4 +22,8 @@ import DownloadFolder from '~/assets/download-folder.vue';
 import VideosFolder from '~/assets/videos-folder.vue';
 import MusicFolder from '~/assets/music-folder.vue';
 import FileExplorer from '~/assets/file-explorer.vue';
+import RecycleBin from '~/assets/recycle-bin.vue';
+import ClockIcon from '~/assets/clock.vue';
+import Notepad from '~/assets/notepad.vue';
+import Paint from '~/assets/paint.vue';
 </script>
